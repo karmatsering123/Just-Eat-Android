@@ -30,7 +30,7 @@ Ans: The most useful feature added was Dagger 2 dependency injection and Reactiv
         return justEatObservable;</br>
     }</i>  </br>
 
-<b>How would you track down a performance issue in production? Have you ever had to do this?</b></br>
+<b>3. How would you track down a performance issue in production? Have you ever had to do this?</b></br>
 1. Detecting Overdraw</br>
  One of the most common causes of a laggy, unresponsive user interface is overdraw. Overdraw is where you waste GPU processing time by coloring in pixels that only get colored in again by something else.</br>
 2. Hierarchy Viewer: Simplify UI design</br>
@@ -42,9 +42,10 @@ Android Device Monitor</br>
 Another tool that can help you gather more information about memory leaks and other memory-related problems is the Android Device Monitor’s Heap tab.</br>
 5 TraceView: Diagnose and address performance problems.</br>
 
-<b>How would you improve the JUST EAT APIs that you just used?</b></br>
+<b>4. How would you improve the JUST EAT APIs that you just used?</b></br>
 I would like the API to return the longitude and latitude of the restaurants, which will help to plot those on Google Maps </br>
-3.	Please describe yourself using JSON.</br>
+
+<b>5.	Please describe yourself using JSON.</b></br>
 <?xml version="1.0" encoding="utf-8"?></br>
 <personal_details></br>
 <name>karma</name></br>
