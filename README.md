@@ -10,9 +10,10 @@ a. Load a Google Map v3 with custom markers, which show nearest restaurants arou
 b. Provide a navigation features on selection of a restaurant on Map</br>
 c. Include material design features</br>
 d. Introduce a push notification service using GCM service</br>
-2.	What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.</br>
+
+<b>2.	What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.</b></br>
 Ans: The most useful feature added was Dagger 2 dependency injection and Reactive Programming. Use of Dagger2 improves flexibility in local integration tests and UI tests. Components can be replaced by doubles very easily and test different scenarios. Reactive programming helps in asynchronous processing and concurrency. </br>
-    
+  <i>  
 /**
      * The method is used to refine the incoming stream and convert to a stream of Restaurant list.
      * @param justEatObservable
@@ -27,9 +28,9 @@ Ans: The most useful feature added was Dagger 2 dependency injection and Reactiv
             }</br>
         });</br>
         return justEatObservable;</br>
-    }  </br>
+    }</i>  </br>
 
-How would you track down a performance issue in production? Have you ever had to do this?</br>
+<b>How would you track down a performance issue in production? Have you ever had to do this?</b></br>
 1. Detecting Overdraw</br>
  One of the most common causes of a laggy, unresponsive user interface is overdraw. Overdraw is where you waste GPU processing time by coloring in pixels that only get colored in again by something else.</br>
 2. Hierarchy Viewer: Simplify UI design</br>
@@ -41,7 +42,7 @@ Android Device Monitor</br>
 Another tool that can help you gather more information about memory leaks and other memory-related problems is the Android Device Monitor’s Heap tab.</br>
 5 TraceView: Diagnose and address performance problems.</br>
 
-How would you improve the JUST EAT APIs that you just used?</br>
+<b>How would you improve the JUST EAT APIs that you just used?</b></br>
 I would like the API to return the longitude and latitude of the restaurants, which will help to plot those on Google Maps </br>
 3.	Please describe yourself using JSON.</br>
 <?xml version="1.0" encoding="utf-8"?></br>
