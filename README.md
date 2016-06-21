@@ -55,3 +55,27 @@ I would like the API to return the longitude and latitude of the restaurants, wh
 </personal_details></br>
 
 
+Features
+Complexity - understandability
+Use of architectural frameworks/libraries/tools:
+
+None
+Conceptual complexity
+
+Low, as it's a pure MVP implementation for Android
+Testability
+Unit testing
+
+High, presenters are unit tested as well as repositories and data sources.
+UI testing
+
+High, injection of fake modules allow for testing with fake data
+
+
+Maintainability
+Ease of amending or adding a feature
+
+High.
+Learning cost
+
+Low. Features are easy to find and the responsibilities are clear. Developers don't need to be familiar with any external dependency to work on the project.
